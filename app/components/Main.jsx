@@ -1,7 +1,7 @@
 var React = require('react');
 var Nav = require ('Nav');
 
-var Main = (props) {
+var Main = (props) =>{
   return (
     <div>
       <Nav/>

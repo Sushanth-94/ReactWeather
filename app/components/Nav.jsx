@@ -1,7 +1,7 @@
 var React = require ('react');
 var {Link, IndexLink} = require('react-router');
 
-var Nav = () {
+var Nav = () => {
   return(
     <div>
       <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
